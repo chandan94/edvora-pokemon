@@ -1,0 +1,45 @@
+.icon-btn {
+    height: 2.5em;
+    border: none;
+    color: white;
+    background: none;
+    margin: 0 1.25em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+
+
+    .custom-icon {
+        font-size: 1.25em;
+    }
+
+    .icon-btn-name {
+        font-size: .85em;
+    }
+}
+#lblCartCount {
+    font-size: 12px;
+    // background: #ff0000;
+    color: #fff;
+    padding: 0 5px;
+    vertical-align: top;
+    margin: -5px -19px 0px 0px;
+}
+
+.disable-btn {
+    // pointer-events: none;
+    opacity: 0.5;
+    cursor: no-drop;
+}
+
+@media screen and (max-width: 992px){ 
+    .icon-btn {
+        margin: 1em auto;
+    }
+
+    .icon-btn-group {
+        width: 23em;
+    }
+}
+

@@ -1,0 +1,31 @@
+.sign-in-up {
+    
+    border: 1px solid #9A1750;
+
+    .nav {
+        justify-content: center;
+        border: 1px solid #9A1750; 
+    }
+
+    .nav-link {
+        color: black;
+    }
+
+    .tab-content {
+        text-align: center;
+    }
+
+    .nav-link.active {
+        color: #9A1750;
+        border: 1px solid #9A1750;
+        background: #efe2ba;
+    }
+
+    link.active {
+        border: 1px solid #9A1750 !important;
+    }
+    
+    .nav-link:hover {
+        border: none;
+    }
+}

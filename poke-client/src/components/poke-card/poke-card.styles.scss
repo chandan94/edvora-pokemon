@@ -1,0 +1,24 @@
+.poke-card {
+
+    .card {
+        height: 27em;
+        width: 18em;
+        padding: 1rem;
+        border: 1px solid #212529;
+        margin: 0 1em 2em 1em;
+        align-items: center;
+    }
+
+    .card-body {
+        padding: 1rem 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-footer {
+        background : none;
+        border : none;
+        text-align: center;
+    }
+}

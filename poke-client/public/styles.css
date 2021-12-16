@@ -1,0 +1,11 @@
+.error {
+    border: 2px solid #9a1750 !important;
+}
+
+.error-message {
+    color: #9a1750 !important;
+    height: 1em;
+    font-size: .8em;
+    text-align: left;
+    margin-top: 0.25em;
+}

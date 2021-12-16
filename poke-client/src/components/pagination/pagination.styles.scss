@@ -1,0 +1,42 @@
+.ice-paging {
+    .pagination {
+        justify-content: center;
+    }
+
+    .page-item.active .page-link {
+        z-index: 3;
+        color: #fff;
+        background-color: #212529;
+        border-color: #212529;
+    }
+
+    .page-item.active:hover .page-link:hover {
+        z-index: 3;
+        color: #fff;
+        background-color: #9A1570;
+        border-color: #212529;
+      
+    }
+
+    .page-item.active:focus .page-link:focus {
+        z-index: 3;
+        color: #fff;
+        background-color: #9A1570;
+        border-color: #212529;
+    }
+
+    .page-item .page-link {
+        z-index: 3;
+        color: black;
+        background-color: white;
+        border-color: #212529;
+    }
+}
+
+.sticky-paging {
+    position: fixed;
+    margin: 0 auto;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+}
